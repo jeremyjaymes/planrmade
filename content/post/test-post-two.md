@@ -1,15 +1,11 @@
-+++
-categories = []
-type = "post"
-featured = ""
-linktitle = ""
-date = "2017-04-04T07:09:48-05:00"
-title = "Hello Hugo, Hello Netlify"
-author = "Jeremy Vossman"
-featuredalt = ""
-featuredpath = ""
-description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum similique, ipsum officia amet blanditiis provident ratione nihil ipsam dolorem repellat. Vivamus dui tellus, consectetur eget mauris id, molestie dictum lectus. Morbi volutpat ultricies dolor, ut aliquet magna ultrices porttitor."
-+++
+---
+type: "post"
+categories: ""
+date: "2017-04-04T07:09:48-05:00"
+title: "Hello Hugo, Hello Netlify"
+author: "Jeremy Vossman"
+description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum similique, ipsum officia amet blanditiis provident ratione nihil ipsam dolorem repellat. Vivamus dui tellus, consectetur eget mauris id, molestie dictum lectus. Morbi volutpat ultricies dolor, ut aliquet magna ultrices porttitor."
+---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet risus quis nisi tempor sollicitudin et eu diam. Ut dolor ipsum, condimentum vitae tellus finibus, commodo suscipit diam. Praesent eu erat venenatis, egestas dolor sed, auctor eros. Etiam placerat ultricies nibh eget mattis. 
 
