@@ -2,9 +2,11 @@ backend:
   name: github
   repo: jeremyjaymes/planrmade # Path to your Github repository
   branch: master # Branch to update
+  media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+  public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
-  - name: "post"
+  - name: "post" # Used in routes, e.g. /admin/collections/blog
     label: "Post" # Used in the UI
     folder: "content/post" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
