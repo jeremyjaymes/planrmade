@@ -1,5 +1,5 @@
-baseURL = "http://example.org/"
+baseURL = "https://pharmacist-phyllis-48327.netlify.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Planr"
 theme = "p"
 paginate = 10
