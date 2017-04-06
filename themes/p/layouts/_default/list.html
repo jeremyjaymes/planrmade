@@ -1,0 +1,13 @@
+{{ partial "structure/header" . }}
+
+    	<main role="main">
+	        {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+
+	        {{ range .Paginator.Pages }}
+	            {{ .Render "content-list" }}
+	        {{ end }}
+
+	        {{ partial "pagination" . }}
+    	</main>
+
+{{ partial "structure/footer" . }}

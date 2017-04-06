@@ -1,0 +1,24 @@
+/*
+* @Author: jeremyjaymes
+* @Date:   2017-03-23 07:16:59
+* @Last Modified by:   jeremyjaymes
+* @Last Modified time: 2017-04-06 13:56:10
+*/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+	max-width: 40rem;
+	width: 94%;
+	margin: 0 auto;
+	
+	@media screen and (min-width: 768px) {
+		width: 100%;
+	}
+}

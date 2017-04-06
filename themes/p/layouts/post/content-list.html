@@ -1,0 +1,8 @@
+<article class="post">
+    {{ .Render "header" }}
+    <p>{{ printf "%s" .Description | markdownify }}</p>
+
+    <footer>
+        <a href="{{ .Permalink }}" class="">Continue Reading</a>
+    </footer>
+</article>

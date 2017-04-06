@@ -1,0 +1,19 @@
+<header>
+    <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1> 
+    <div class="meta">
+        {{ if .Site.Params.orderByPublishDate }}
+            {{ $.Scratch.Set "dateType" .PublishDate }}
+        {{ else }}
+            {{ $.Scratch.Set "dateType" .Date }}
+        {{ end }}
+
+        <time class="published" datetime='{{ ($.Scratch.Get "dateType").Format "2006-01-02" }}'>
+            {{ ($.Scratch.Get "dateType").Format "January 2, 2006" }}
+        </time>
+        <span class="sep"> | </span>
+        <span class="author">{{ .Params.author }}</span>
+        {{ if .Site.Params.includeReadingTime }}
+            <p>{{ .ReadingTime }} minute read</p>
+        {{ end }}
+    </div>   
+</header>

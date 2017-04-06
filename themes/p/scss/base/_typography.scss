@@ -1,0 +1,44 @@
+body {
+	background-color: #f8f8f0;
+	border-top: 20px solid #249a38;
+	font-family: 'Source Sans Pro',Helvetica,sans-serif;
+	color: #373737;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.65;
+
+	@media screen and (min-width: 768px) {
+		@include font-size(20px)
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	color: #222;
+	font-weight: 300;
+}
+
+h1 {
+	@include font-size(34px);
+	margin: 0 0 1rem 0;
+	line-height: 1.2;
+}
+
+h2 {
+	@include font-size(30px)
+	line-height: 1.2;
+}
+
+h3 {
+	@include font-size(26px);
+	line-height: 1.5;
+}
+
+a {
+	border-bottom: 1px solid #444;
+	color: #000;
+	text-decoration: none;
+}
