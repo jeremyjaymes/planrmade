@@ -1,6 +1,5 @@
 .DS_Store
 node_modules/
-data/**/hash.*
 
 public/
 themes/hugo-steam-theme/
