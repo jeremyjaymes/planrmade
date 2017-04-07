@@ -22,13 +22,13 @@ h5 {
 }
 
 h1 {
-	@include font-size(34px);
+	@include font-size(32px);
 	margin: 0 0 1rem 0;
 	line-height: 1.2;
 }
 
 h2 {
-	@include font-size(30px)
+	@include font-size(28px)
 	line-height: 1.2;
 }
 
@@ -37,8 +37,12 @@ h3 {
 	line-height: 1.5;
 }
 
+h4 {
+	@include font-size(21px);
+}
+
 a {
-	border-bottom: 1px solid #444;
+	border-bottom: 1px solid #249a38;
 	color: #000;
 	text-decoration: none;
 }

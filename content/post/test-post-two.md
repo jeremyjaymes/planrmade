@@ -3,7 +3,7 @@ type: "post"
 categories: ""
 date: "2017-04-04T07:09:48-05:00"
 title: "Hello Hugo, Hello Netlify"
-author: "Jeremy Vossman"
+author: "Jeremy"
 description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum similique, ipsum officia amet blanditiis provident ratione nihil ipsam dolorem repellat. Vivamus dui tellus, consectetur eget mauris id, molestie dictum lectus. Morbi volutpat ultricies dolor, ut aliquet magna ultrices porttitor."
 ---
 

@@ -3,7 +3,7 @@ type: "post"
 categories: ""
 date: "2017-04-04T06:28:13-05:00"
 title: "Test Post"
-author: "Jeremy Vossman"
+author: "Jeremy"
 description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum similique, ipsum officia amet blanditiis provident ratione nihil ipsam dolorem repellat."
 
 ---
